@@ -27,6 +27,7 @@ int main (){
 }
 
 void *factorail (void *arg){
+	//comment
 	int id = (int) arg;
 	sem_wait (&sem[id]);
 	f = f * (id+20);
